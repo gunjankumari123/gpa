@@ -1,0 +1,294 @@
+<html>
+	<head>
+		<title>css</title>
+		<style type="text/css">
+			body{
+				background:pink;
+			}
+			
+				#mainarea{
+					width:1200px;
+					height:1500px;
+					background:orange;
+					margin:0 auto;
+				}
+				#toparea{
+					width:1200px;
+					height:150px;
+					background:yellow;
+				}
+				#logoarea{
+					width:150px;
+					height:150px;
+					background:green;
+					float:left;
+
+				}
+				#titlearea{
+					width:1050px;
+					height:150px;
+					background:#00ff00;
+					float:left;
+
+				}
+				#menuarea{
+					width:1200px;
+					height:40px;
+					background:#fff;
+				}
+				#menuarea ul{
+					list-style:none;
+					margin:0;
+					padding:0;
+				}
+				#menuarea ul li{
+					float:left;
+				}
+				#menuarea ul li a:link,#menuarea ul li a:visited{
+					color:red;
+					background:yellow;
+					text-decoration:none;
+					padding:10px 25px;
+					display:block;
+					border-right:solid 1px black;
+				}
+				#menuarea ul li a:hover{
+					color:yellow;
+					background:red;
+				}
+				#menuarea ul li ul{
+					display:none;
+				}
+				#menuarea ul li:hover ul{
+					display:block;
+					position:absolute;
+					z-index:1000;
+				}
+				#menuarea ul li:hover ul li{
+					float:none;
+				}
+				#menuarea ul  li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+					border:none;
+					border-bottom:solid 1px black;
+				}				
+		
+				#slidearea{
+					width:1000px;
+					height:200px;
+					background:#ccc;
+					float:left;
+					padding-left:100px;
+					padding-right:100px;
+					padding-top:50px;
+					padding-bottom:50px;
+				}
+				#slidearea a:link,#slidearea a:visited{
+					color:red;
+					text-decoration:none;
+					padding:10px 25px;
+					background:yellow;
+				}
+				#slidearea a:hover{
+					color:white;
+					text-decoration:underline;
+					background:black;
+					border-radius:10px;
+				}
+				
+				#slide1area{
+					width:1000px;
+					height:200px;
+					background:#3EF443;
+					margin:50px 100px;
+				}
+
+				#darea{
+					width:1200px;
+					height:300px;
+					background:red;
+				}
+				
+				.d11{
+					width:500px;
+					height:200px;
+					float:left;
+					margin:50px;
+				}
+				.bg1{
+				background:#ccc;
+				
+				}
+				.bg2{
+				background:purple;
+				
+				}
+				#boxarea{
+					width:1200px;
+					height:300px;
+					background:#fff;
+				}
+				
+				.box{
+					width:100px;
+					height:0px;
+					float:left;
+					margin:50px;
+					border-top:solid 50px red;
+					border-right:solid 50px yellow;
+					border-bottom:solid 50px blue;
+					border-left:solid 50px orange;
+				}
+				
+				#forterarea{
+					width:1200px;
+					height:410px;
+					background:green;
+				}
+				#forter1area{
+					width:300px;
+					height:410px;
+					background:red;
+					float:left;
+				}
+				#forter1area ul{
+					/*list-style-type:none;
+					list-style-image:url('http://mpsckp.com/images/arr.png');
+					list-style-position:inside;*/
+					list-style:lower-romen url('http://mpsckp.com/images/arr.png');
+				}
+				#forter2area{
+					width:300px;
+					height:410px;
+					background:blue;
+					float:left;
+				}
+				#forter2area ul{
+					list-style:none;
+					margin:0;
+					padding:0;
+				}
+				#forter2area ul li{
+					color:red;
+				}
+				#forter2area ul li:hover{
+					color:#fff;
+					font-size:120%;
+				}
+				#forter3area{
+					width:300px;
+					height:410px;
+					background:#FFF;
+					float:left;
+				}
+				#forter3area ul{
+					list-style:none;
+					margin:0;
+					padding:0;
+				}
+				#forter3area ul li a:link,#forterarea ul li a:visited{
+					color:red;
+					background:yellow;
+					text-decoration:none;
+					padding:10px 25px;
+					display:block;
+					border-bottom:solid 1px black;
+				}
+				#forterarea ul li a:hover{
+					color:yellow;
+					background:red;
+				}
+				#forter4area{
+					width:300px;
+					height:410px;
+					background:blue;
+					float:left;
+				}
+					
+				
+		</style>
+
+	
+	</head>
+	<body style=margin:0;>
+		<div id="mainarea">
+			<div id="toparea">
+				<div id="logoarea">
+				</div>	
+				<div id="titlearea">
+				</div>	
+			</div>
+			<div id="menuarea">
+				<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">gallary</a></li>
+						<li><a href="#">contect</a></li>
+						<li><a href="#">products</a>
+							<ul>
+								<li><a href="#">product 1</a></li>
+								<li><a href="#">product 2</a></li>
+								<li><a href="#">product 3</a></li>
+							</ul>
+						</li>
+					</ul>
+			</div>
+			<div id="slidearea">
+				<a href="http://www.google.com">GOOGLE</a>
+				<a href="http://www.msmckp.com">msmckp</a>
+
+			</div>
+			<div id="slide1area">
+			</div>
+			<div id="darea">
+				
+				<div class="d11 bg1">
+				</div>
+				<div class="d11 bg2">
+				
+				</div>
+				
+			</div>
+			<div id="boxarea">
+				
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+
+				
+			</div>
+			<div id="forterarea">
+				<div id="forter1area">
+					<ul>
+						<li>home</li>
+						<li>about</li>
+						<li>galary</li>
+						<li>contect</li>
+					</ul>
+				</div>
+				<div id="forter2area">
+					<ul>
+						<li>home</li>
+						<li>about</li>
+						<li>galary</li>
+						<li>contect</li>
+					</ul>
+				</div>
+				<div id="forter3area">
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">galary</a></li>
+						<li><a href="#">contect</a></li>
+					</ul>
+				</div>
+				<div id="forter4area">
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>

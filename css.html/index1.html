@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>welcome</title>
+		<style type="text/css">
+			body{
+				background:orange;
+
+				}
+				#mainarea{
+					width:1200px;
+					height:1500px;
+					background:white;
+					margin:0 auto;
+			
+				}
+				#toparea{
+					width:1200px;
+					height:150px;
+					background:blue;
+				}
+				#logoarea{
+					width:150px;
+					height:150px;
+					background:green;
+					float:left;
+				}
+				#titlearea{
+					width:1050px;
+					height:150px;
+					background:black;
+					float:left;
+				}
+				@media screen and (max-width:1000px){
+				#logoarea,#titlearea,#toparea{
+					width:100%;
+				}
+				
+				}
+				@media print{
+					#toparea{
+						display:none;
+				}
+				}
+				
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="toparea">
+			<div id="logoarea"></div>
+			<div id="titlearea"></div>
+			</div>
+			
+		
+		
+	</body>
+		
+</html>

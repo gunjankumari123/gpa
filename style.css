@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+}
+.toparea{
+    background:#B35550;
+    padding:10px 0;
+    text-align:center;
+    color:white;
+}
+.logoarea{
+    background:#F2C38B;
+    padding:40px 0;
+    text-align:center;
+}
+.logoarea img{
+    height:110px;
+}
+.logoarea h1{
+    color:#74353f;
+    font-weight:bolder;
+    text-shadow: 1px 1px 1px #74353f ;
+}
+.logoarea h4{
+    color:#212529;
+    text-shadow: 1px 1px 1px #74353f ;
+
+}
+
+
+.parea{
+    background:;
+    padding:30px 0;
+    text-align:center;
+}
+    .fullwidth{
+        width:100%;
+    }
+    .parea p{
+        text-align:justify;
+    }
+    .parea p:last-child{
+        text-align: right;
+    }
+.course{
+    background:url("yuo.png");
+    padding:59px 0;
+    text-align:center;
+}
+    .course h2{
+        align:center;
+    }
+    .course p{
+        background:white;
+        padding:15px;
+    }
+.box{
+    padding:32px 0;
+    margin:;
+    background:white;
+    width:100%;
+    overflow:hidden;
+}
+    .box img{
+        width:100%;
+        transition:all 2s;
+        overflow:hidden;
+    }
+    .box:hover img{
+        transform:rotate(360deg);
+        overflow:hidden;
+    }
+
+.picture{
+    background:url('black.jpg');
+}
+
+.description{
+    background:#1D1D1D;
+    padding-top:55px;
+    text-align:left;
+
+}
+.description h5{
+         color:white;  
+    }
+    .description ul li{
+        color:#D37F57;
+    }
+    .description p{
+        color:#F2C38B;
+    }
+    .description c{
+        color:#D37F57;
+    }
+    .description a{
+        text-align:left;
+        color:#D37F57;
+    }
+    .menu{
+        background:#F8F9FA;
+     }
+     .menu ul li:last-child{
+        margin-left: 90px;
+        color: #0D6EFD;
+        border: solid 1px #0D6EFD;
+        border-radius: 10px;
+     }
+     .menu ul li:last-child{
+        color: #0D6EFD;
+     }
+     .menu ul li:last-child:hover{
+        background:#0D6EFD;
+     }
+     .slide{
+        margin-left: 20px;
+      }
+      .slide col{
+        border:solid 1px #000;
+      }
+
+    
